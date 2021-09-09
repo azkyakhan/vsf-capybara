@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added safe Area of Elements in the Bottom Elements(#499)
 
 ### Changed / Improved
+- Improved search on mobile (#542)
+- Added min height to the main content of the page (#503)
 - Made navbar visible while scrolling on mobile(#622)
 - Added background blur effect on mobile(#622)
 - Updated css styling by replacing flexbox to css grid(#601)
@@ -42,6 +44,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved: Height for the micro cart on mobile (#576)
 - Fixed body scroll issue when open micro cart (#482)
 - Improved speed of carousel in m-product-carousel(#623)
+- Height of search result page on mobile (#474)
 
 ## [1.0.5] - 23.06.2021
 
@@ -60,7 +63,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Changed / Improved
-
 - Improved spacing around product carousal on home page(#471)
 - Improved navbar layout (#467)
 - Improved heading in search panel (#478)

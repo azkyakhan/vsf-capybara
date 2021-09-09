@@ -28,6 +28,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed styling of 'a' tag as their was no 'a' tag in the file(#606)
 - Improved HTML markup by spacing between elements(#606)
 - Improved CSS styling by using shorthand methods (#606)
+- Improved css styling by replacing flexbox to css grid(#608)
+- Improved spacing between the form elements through grid gap(#608)
+- Fixed: Dropdown overflow(#608)
+- Improved aligning of form items(#608)
+- Improved button width on desktop(#608)
+- Improved HTML markup by spacing between elements(#608)
 - Fix broken mega menu. Requires [one change](https://github.com/vuestorefront/vsf-capybara/issues/509#issuecomment-862174222) in the config. ([#509](https://github.com/vuestorefront/vsf-capybara/issues/509))
 - Using `getProductPrice` helper for calculating product prices in Cart/Checkout
 - Improved: the error message for the zip-code field on shipping and payment page(#589)

@@ -324,6 +324,7 @@ export default {
   display: grid;
   grid-gap: var(--spacer-base) var(--spacer-lg);
   align-items: start;
+  --select-dropdown-position: relative;
 }
 
 @include for-desktop {

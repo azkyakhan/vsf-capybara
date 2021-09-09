@@ -314,15 +314,6 @@ export default {
 
 @import "~@storefront-ui/shared/styles/helpers/breakpoints";
 
-<<<<<<< HEAD
-.tab-orphan {
-  @include for-mobile {
-    --tabs-content-border-width: 0;
-    --tabs-title-display: none;
-    --tabs-content-padding: 0;
-  }
-}
-
 // Add/Update Address
 
 .message {
@@ -376,14 +367,6 @@ export default {
 
 // Shipping Details
 
-.shipping-list {
-  margin: 0 0 var(--spacer-base) 0;
-}
-
-.shipping {
-  display: flex;
-  padding: var(--spacer-base) 0;
-=======
 .address-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(343px, 1fr));
@@ -395,7 +378,6 @@ export default {
   position: relative;
   transition: box-shadow 150ms linear;
   padding: var(--spacer-sm);
->>>>>>> fc34012c0dc9d9f40c63fd298dca614bff36d5b7
   border: 1px solid var(--c-light);
 
   &:hover {
@@ -425,8 +407,6 @@ export default {
     }
   }
 }
-<<<<<<< HEAD
-=======
 
 .tab-orphan {
   @include for-mobile {
@@ -435,41 +415,4 @@ export default {
     --tabs-content-padding: 0;
   }
 }
-.form {
-  @include for-desktop {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  &__element {
-    margin: 0 0 var(--spacer-base) 0;
-    @include for-desktop {
-      flex: 0 0 100%;
-    }
-    &--half {
-      @include for-desktop {
-        flex: 1 1 50%;
-      }
-      &-even {
-        @include for-desktop {
-          padding: 0 0 0 var(--spacer-lg);
-        }
-      }
-    }
-  }
-  &__select {
-    padding-bottom: calc(var(--font-xs) * 1.2);
-  }
-  --select-dropdown-position: relative;
-}
-.message {
-  margin: 0 0 var(--spacer-base) 0;
-}
-.action-button {
-  --button-width: 100%;
-  @include for-desktop {
-    --button-width: auto;
-  }
-}
->>>>>>> fc34012c0dc9d9f40c63fd298dca614bff36d5b7
 </style>

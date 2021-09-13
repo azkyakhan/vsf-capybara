@@ -4,6 +4,7 @@
       <div v-for="singleCol in col" :key="singleCol" class="a-images-grid__col">
         <SfImage
           :src="getImage(singleRow, singleCol).image"
+          alt="grid-images"
         />
       </div>
     </div>
@@ -68,4 +69,11 @@ export default {
     }
   }
 }
+
+::v-deep {
+  .sf-image {
+    --image-width: 100%;
+  }
+}
+
 </style>

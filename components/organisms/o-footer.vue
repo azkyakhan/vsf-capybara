@@ -69,6 +69,8 @@
 import { mapActions, mapGetters } from 'vuex';
 import ABackToTop from 'theme/components/atoms/a-back-to-top';
 import { SfFooter, SfList, SfMenuItem } from '@storefront-ui/vue';
+import SfFooterColumn from '@storefront-ui/vue/src/components/organisms/SfFooter/_internal/SfFooterColumn';
+import SfListItem from '@storefront-ui/vue/src/components/organisms/SfList/_internal/SfListItem';
 import { ModalList } from 'theme/store/ui/modals'
 import { getPathForStaticPage } from 'theme/helpers';
 import config from 'config';
@@ -80,7 +82,9 @@ export default {
   components: {
     ABackToTop,
     SfFooter,
+    SfFooterColumn,
     SfList,
+    SfListItem,
     SfMenuItem
   },
   data () {
@@ -154,15 +158,6 @@ export default {
 <style lang="scss" scoped>
 @import "~@storefront-ui/shared/styles/helpers/breakpoints";
 
-.o-footer {
-  @include for-desktop {
-    max-width: 1272px;
-    margin: auto;
-  }
-  .sf-footer {
-    --footer-width: auto;
-  }
-}
 .social-column {
   flex-basis: auto;
 }

@@ -65,12 +65,14 @@ import { prepareCategoryProduct } from 'theme/helpers';
 import VueOfflineMixin from 'vue-offline/mixin';
 import { SfHeading, SfButton, SfList, SfMenuItem, SfProductCard } from '@storefront-ui/vue';
 import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
+import SfListItem from '@storefront-ui/vue/src/components/organisms/SfList/_internal/SfListItem';
 
 export default {
   name: 'OSearchPanel',
   components: {
     SfButton,
     SfList,
+    SfListItem,
     SfMenuItem,
     SfProductCard,
     SfHeading

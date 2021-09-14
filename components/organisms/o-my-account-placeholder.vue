@@ -12,9 +12,10 @@
 
 <script>
 import { SfTabs } from '@storefront-ui/vue';
+import { SfTab } from '@storefront-ui/vue/src/components/organisms/SfTabs/_internal/SfTab.vue'
 export default {
   name: 'OMyAccountPlaceholder',
-  components: { SfTabs },
+  components: { SfTabs, SfTab },
   props: {
     title: {
       type: String,

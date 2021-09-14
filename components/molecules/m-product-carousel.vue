@@ -23,6 +23,7 @@
 </template>
 <script>
 import { SfProductCard, SfCarousel } from '@storefront-ui/vue';
+import { SfCarouselItem } from '@storefront-ui/vue/src/components/organisms/SfCarousel/_internal/SfCarouselItem.vue'
 import { htmlDecode } from '@vue-storefront/core/filters';
 import config from 'config';
 import { currentStoreView } from '@vue-storefront/core/lib/multistore';
@@ -33,6 +34,7 @@ export default {
   name: 'MProductCarousel',
   components: {
     SfCarousel,
+    SfCarouselItem,
     SfProductCard
   },
   props: {

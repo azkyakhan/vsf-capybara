@@ -43,6 +43,7 @@
 import { ModalList } from 'theme/store/ui/modals';
 import { mapState, mapActions } from 'vuex';
 import { SfHeading, SfTabs, SfDivider } from '@storefront-ui/vue';
+import SfTab from '@storefront-ui/vue/src/components/organisms/SfTabs/_internal/SfTab.vue'
 import AProductRating from 'theme/components/atoms/a-product-rating';
 import AProductAttribute from 'theme/components/atoms/a-product-attribute';
 import MReviewList from 'theme/components/molecules/m-review-list';
@@ -52,6 +53,7 @@ export default {
   components: {
     SfHeading,
     SfTabs,
+    SfTab,
     AProductRating,
     SfDivider,
     AProductAttribute,

@@ -3,6 +3,7 @@
     <SfImage
       src="/assets/error.svg"
       class="error__image"
+      alt="error-image"
     />
     <SfHeading :level="level" :title="title" :subtitle="subtitle" class="error__message" />
     <div class="error__action">

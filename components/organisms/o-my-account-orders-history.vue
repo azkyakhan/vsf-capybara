@@ -71,6 +71,10 @@
 import UserOrder from '@vue-storefront/core/modules/order/components/UserOrdersHistory';
 import OMyAccountOrderDetails from 'theme/components/organisms/o-my-account-order-details'
 import { SfTabs, SfTable, SfButton } from '@storefront-ui/vue';
+import { SfTableHeading } from '@storefront-ui/vue/src/components/organisms/SfTable/_internal/SfTableHeading.vue'
+import { SfTableHeader } from '@storefront-ui/vue/src/components/organisms/SfTable/_internal/SfTableHeader.vue'
+import { SfTableData } from '@storefront-ui/vue/src/components/organisms/SfTable/_internal/SfTableData.vue'
+import { SfTableRow } from '@storefront-ui/vue/src/components/organisms/SfTable/_internal/SfTableRow.vue'
 import { ModalList } from 'theme/store/ui/modals'
 
 export default {
@@ -78,6 +82,10 @@ export default {
   mixins: [UserOrder],
   components: {
     SfTabs,
+    SfTableHeading,
+    SfTableHeader,
+    SfTableData,
+    SfTableRow,
     SfTable,
     SfButton,
     OMyAccountOrderDetails

@@ -13,6 +13,7 @@
 
 <script>
 import { SfTabs } from '@storefront-ui/vue';
+import { SfTab } from '@storefront-ui/vue/src/components/organisms/SfTabs/_internal/SfTab.vue'
 import MUpdatePersonalData from 'theme/components/molecules/m-update-personal-data'
 import MUpdatePassword from 'theme/components/molecules/m-update-password'
 
@@ -20,6 +21,7 @@ export default {
   name: 'OMyAccountProfile',
   components: {
     SfTabs,
+    SfTab,
     MUpdatePersonalData,
     MUpdatePassword
   }

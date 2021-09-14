@@ -68,10 +68,14 @@
 import { ConfirmOrders } from '@vue-storefront/core/modules/offline-order/components/ConfirmOrders';
 import { CancelOrders } from '@vue-storefront/core/modules/offline-order/components/CancelOrders';
 import { SfModal, SfHeading, SfButton, SfTable } from '@storefront-ui/vue';
+import { SfTableHeading } from '@storefront-ui/vue/src/components/organisms/SfTable/_internal/SfTableHeading.vue'
+import { SfTableHeader } from '@storefront-ui/vue/src/components/organisms/SfTable/_internal/SfTableHeader.vue'
+import { SfTableData } from '@storefront-ui/vue/src/components/organisms/SfTable/_internal/SfTableData.vue'
+import { SfTableRow } from '@storefront-ui/vue/src/components/organisms/SfTable/_internal/SfTableRow.vue'
 
 export default {
   name: 'MModalOrderConfirmation',
-  components: { SfModal, SfHeading, SfButton, SfTable },
+  components: { SfModal, SfHeading, SfButton, SfTable, SfTableData, SfTableHeader, SfTableHeading, SfTableRow },
   mixins: [ConfirmOrders, CancelOrders],
   props: {
     isVisible: {

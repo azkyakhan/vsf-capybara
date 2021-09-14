@@ -39,10 +39,12 @@
 <script>
 import config from 'config';
 import { SfModal, SfHeading, SfFooter, SfList, SfMenuItem } from '@storefront-ui/vue';
+import { SfListItem } from '@storefront-ui/vue/src/components/organisms/SfList/_internal/SfListItem.vue'
+import { SfFooterColumn } from '@storefront-ui/vue/src/components/organisms/SfFooter/_internal/SfFooterColumn.vue'
 
 export default {
   name: 'MModalLanguageSwitcher',
-  components: { SfModal, SfHeading, SfFooter, SfList, SfMenuItem },
+  components: { SfModal, SfHeading, SfFooter, SfFooterColumn, SfList, SfListItem, SfMenuItem },
   props: {
     isVisible: {
       type: Boolean,

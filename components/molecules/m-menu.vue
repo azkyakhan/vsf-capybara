@@ -45,8 +45,11 @@ import get from 'lodash-es/get'
 import { prepareCategoryMenuItem } from 'theme/helpers';
 import { mapGetters, mapState } from 'vuex';
 import { checkWebpSupport } from 'theme/helpers'
+import SfListItem from '@storefront-ui/vue/src/components/organisms/SfList/_internal/SfListItem';
+import SfMegaMenuColumn from '@storefront-ui/vue/src/components/organisms/SfMegaMenu/_internal/SfMegaMenuColumn';
+
 export default {
-  components: { SfMegaMenu, SfList, SfMenuItem, SfBanner },
+  components: { SfMegaMenu, SfMegaMenuColumn, SfList, SfListItem, SfMenuItem, SfBanner },
   props: {
     visible: {
       type: Boolean,

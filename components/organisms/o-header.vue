@@ -76,11 +76,13 @@ import { mapState, mapGetters } from 'vuex';
 import MMenu from 'theme/components/molecules/m-menu';
 import { formatCategoryLink } from '@vue-storefront/core/modules/url/helpers';
 import { getTopLevelCategories } from 'theme/helpers';
+import SfHeaderNavigationItem from '@storefront-ui/vue/src/components/organisms/SfHeader/_internal/SfHeaderNavigationItem';
 
 export default {
   name: 'OHeader',
   components: {
     SfHeader,
+    SfHeaderNavigationItem,
     SfButton,
     ALogo,
     AAccountIcon,

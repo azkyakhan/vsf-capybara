@@ -73,6 +73,7 @@
 <script>
 import { ProductCustomOptions } from '@vue-storefront/core/modules/catalog/components/ProductCustomOptions'
 import { SfCheckbox, SfAlert, SfHeading, SfRadio, SfSelect, SfProductOption, SfInput, SfDivider } from '@storefront-ui/vue';
+import SfSelectOption from '@storefront-ui/vue/src/components/molecules/SfSelect/_internal/SfSelectOption.vue'
 import get from 'lodash-es/get'
 import { customOptionFieldName, defaultCustomOptionValue, selectedCustomOptionValue } from '@vue-storefront/core/modules/catalog/helpers/customOption';
 
@@ -84,6 +85,7 @@ export default {
     SfHeading,
     SfRadio,
     SfSelect,
+    SfSelectOption,
     SfProductOption,
     SfInput,
     SfDivider

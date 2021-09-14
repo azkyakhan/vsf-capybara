@@ -46,6 +46,7 @@ import config from 'config'
 import { mapGetters } from 'vuex';
 import get from 'lodash-es/get'
 import { SfAlert, SfSelect, SfProductOption, SfColor } from '@storefront-ui/vue';
+import SfSelectOption from '@storefront-ui/vue/src/components/molecules/SfSelect/_internal/SfSelectOption.vue'
 import { getAvailableFiltersByProduct } from '@vue-storefront/core/modules/catalog/helpers/filters'
 export default {
   name: 'MProductOptionsConfigurable',
@@ -55,6 +56,7 @@ export default {
   components: {
     SfAlert,
     SfSelect,
+    SfSelectOption,
     SfProductOption,
     SfColor
   },

@@ -292,6 +292,11 @@ import {
   SfCharacteristic,
   SfCollectedProduct
 } from '@storefront-ui/vue';
+import { SfAccordionItem } from '@storefront-ui/vue/src/components/organisms/SfAccordion/_internal/SfAccordionItem.vue'
+import { SfTableHeading } from '@storefront-ui/vue/src/components/organisms/SfTable/_internal/SfTableHeading.vue'
+import { SfTableHeader } from '@storefront-ui/vue/src/components/organisms/SfTable/_internal/SfTableHeader.vue'
+import { SfTableData } from '@storefront-ui/vue/src/components/organisms/SfTable/_internal/SfTableData.vue'
+import { SfTableRow } from '@storefront-ui/vue/src/components/organisms/SfTable/_internal/SfTableRow.vue'
 import MPriceSummary from 'theme/components/molecules/m-price-summary';
 import APromoCode from 'theme/components/atoms/a-promo-code';
 import { ModalList } from 'theme/store/ui/modals'
@@ -304,10 +309,15 @@ export default {
     SfImage,
     SfPrice,
     SfTable,
+    SfTableHeading,
+    SfTableHeader,
+    SfTableData,
+    SfTableRow,
     SfButton,
     SfHeading,
     SfCheckbox,
     SfAccordion,
+    SfAccordionItem,
     SfCharacteristic,
     SfCollectedProduct,
     APromoCode,

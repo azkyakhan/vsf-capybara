@@ -174,11 +174,13 @@ import pick from 'lodash-es/pick';
 import { required, minLength } from 'vuelidate/lib/validators';
 import { unicodeAlpha, unicodeAlphaNum } from '@vue-storefront/core/helpers/validators';
 import { SfTabs, SfInput, SfButton, SfSelect, SfIcon } from '@storefront-ui/vue';
+import { SfTab } from '@storefront-ui/vue/src/components/organisms/SfTabs/_internal/SfTab.vue'
+import { SfSelectOption } from '@storefront-ui/vue/src/components/molecules/SfSelect/_internal/SfSelectOption.vue'
 const Countries = require('@vue-storefront/i18n/resource/countries.json')
 
 export default {
   name: 'OMyAccountShippingDetails',
-  components: { SfTabs, SfInput, SfButton, SfSelect, SfIcon },
+  components: { SfTabs, SfInput, SfButton, SfSelect, SfSelectOption, SfIcon },
   data () {
     return {
       editAddress: false,

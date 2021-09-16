@@ -116,12 +116,12 @@ export default {
       return this.productGallery.map(imageObject => ({
         id: imageObject.id,
         mobile: {
-          url: imageObject.src,
-          alt: this.product.name
+          url: imageObject.src
+          // alt: this.product.name
         },
         desktop: {
-          url: imageObject.src,
-          alt: this.product.name
+          url: imageObject.src
+          // alt: this.product.name
         }
       }));
     },

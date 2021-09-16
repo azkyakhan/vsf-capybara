@@ -180,7 +180,7 @@ const Countries = require('@vue-storefront/i18n/resource/countries.json')
 
 export default {
   name: 'OMyAccountShippingDetails',
-  components: { SfTabs, SfInput, SfButton, SfSelect, SfSelectOption, SfIcon },
+  components: { SfTabs, SfTab, SfInput, SfButton, SfSelect, SfSelectOption, SfIcon },
   data () {
     return {
       editAddress: false,

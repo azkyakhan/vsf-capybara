@@ -29,6 +29,7 @@ import {
   SfBreadcrumbs,
   SfContentPages
 } from '@storefront-ui/vue';
+import { SfContentPage } from '@storefront-ui/vue/src/components/organisms/SfContentPages/_internal/SfContentPage.vue'
 import { getPathForStaticPage } from 'theme/helpers';
 import CmsPage from '@vue-storefront/core/pages/CmsPage';
 import AStatic from 'theme/components/atoms/a-static';
@@ -38,6 +39,7 @@ export default {
   components: {
     SfBreadcrumbs,
     SfContentPages,
+    SfContentPage,
     AStatic
   },
   mixins: [CmsPage],

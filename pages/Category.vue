@@ -232,6 +232,9 @@ import {
   SfBreadcrumbs,
   SfProductCard
 } from '@storefront-ui/vue';
+import { SfSelectOption } from '@storefront-ui/vue/src/components/molecules/SfSelect/_internal/SfSelectOption.vue';
+import { SfAccordionItem } from '@storefront-ui/vue/src/components/organisms/SfAccordion/_internal/SfAccordionItem.vue';
+import { SfListItem } from '@storefront-ui/vue/src/components/organisms/SfList/_internal/SfListItem.vue'
 
 const THEME_PAGE_SIZE = 12;
 const LAZY_LOADING_ACTIVATION_BREAKPOINT = 1024;
@@ -274,14 +277,17 @@ export default {
     ASortIcon,
     SfIcon,
     SfList,
+    SfListItem,
     SfColor,
     SfButton,
     SfSelect,
+    SfSelectOption,
     SfFilter,
     SfSidebar,
     SfHeading,
     SfMenuItem,
     SfAccordion,
+    SfAccordionItem,
     SfPagination,
     SfBreadcrumbs,
     SfProductCard

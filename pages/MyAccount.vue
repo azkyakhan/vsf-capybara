@@ -49,11 +49,15 @@ import OMyAccountOrdersHistory from 'theme/components/organisms/o-my-account-ord
 import OMyAccountPlaceholder from 'theme/components/organisms/o-my-account-placeholder';
 import { localizedRoute } from '@vue-storefront/core/lib/multistore';
 import { SfBreadcrumbs, SfContentPages } from '@storefront-ui/vue';
+import { SfContentCategory } from '@storefront-ui/vue/src/components/organisms/SfContentPages/_internal/SfContentCategory.vue';
+import { SfContentPage } from '@storefront-ui/vue/src/components/organisms/SfContentPages/_internal/SfContentPage.vue';
 
 export default {
   components: {
     SfBreadcrumbs,
     SfContentPages,
+    SfContentCategory,
+    SfContentPage,
     OMyAccountProfile,
     OMyAccountShippingDetails,
     OMyAccountOrdersHistory,
